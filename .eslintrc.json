@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended"
+  ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "eslint:recommended"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+      },
+      "rules": {}
+    }
+  ]
+}
