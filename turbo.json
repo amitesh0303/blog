@@ -1,0 +1,22 @@
+{
+  "globalDependencies": ["**/.env", "**/.env.local"],
+  "pipeline": {
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "build": {
+      "outputs": ["dist/**", ".next/**", "build/**"],
+      "dependsOn": ["^build"]
+    },
+    "lint": {
+      "outputs": []
+    },
+    "type-check": {
+      "outputs": []
+    },
+    "format": {
+      "outputs": []
+    }
+  }
+}

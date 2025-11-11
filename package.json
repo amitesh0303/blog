@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A full-stack blog website with turborepo, Express, and Next.js",
+  "private": true,
+  "packageManager": "pnpm@8.0.0",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "type-check": "turbo run type-check"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.12"
+  },
+  "pnpm": {
+    "overrides": {
+      "typescript": "^5.2.0"
+    }
+  }
+}
